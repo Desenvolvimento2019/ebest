@@ -1,0 +1,20 @@
+<IfModule  mod_rewrite.c>
+RewriteEngine on
+
+
+ErrorDocument 404 /index.php?page=404
+
+
+RewriteRule ^home/?$ index.php?page=home
+RewriteRule ^contato/?$ index.php?page=contato
+
+
+RewriteRule ^post/(.+)/([0-9]+)/?$ index.php?page=post&id_post=$2
+
+
+
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+ErrorDocument 404 /index.php?page=404
+</IfModule>

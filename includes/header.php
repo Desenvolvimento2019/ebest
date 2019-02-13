@@ -3,7 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+
+    <?php 
+        switch ($_GET['page']) {
+            case 'home':
+                echo '<title>Home - eBest Segurança do Trabalho Caxias do Sul</title>';
+                echo '<meta content="" name="description">';
+                break;
+            case 'somos':
+                echo '<title>somos</title>';
+                echo '<meta content="" name="description">';
+                break;
+            
+            default:
+                echo '<title>Home</title>';
+                echo '<meta content="" name="description">';
+                break;
+        }
+    ?>
+    
+    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
     
@@ -26,10 +46,10 @@
                 <li><a href="#"><img src="assets/img/ico_instagram.png"></a></li>
             </ul>
             <ul class="menu">
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#">QUEM SOMOS</a></li>
-                <li><a href="#">CASES</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li class="<?php echo $_GET['page'] == 'home' ? 'active' : ''; ?>"><a href="home">HOME</a></li>
+                <li class="<?php echo $_GET['page'] == 'somos' ? 'active' : ''; ?>"><a href="quem-somos">QUEM SOMOS</a></li>
+                <li class="<?php echo $_GET['page'] == 'cases' ? 'active' : ''; ?>"><a href="#">CASES</a></li>
+                <li class="<?php echo $_GET['page'] == 'contato' ? 'active' : ''; ?>"><a href="#">CONTATO</a></li>
             </ul>
         </div>
     </div>

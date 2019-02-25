@@ -7,7 +7,7 @@
     <?php 
         switch ($_GET['page']) {
             case 'home':
-                echo '<title>Home - eBest Segurança do Trabalho Caxias do Sul</title>';
+                echo '<title>Home eBest Segurança do Trabalho Caxias do Sul</title>';
                 echo '<meta content="" name="description">';
                 break;
             case 'somos':
@@ -47,19 +47,10 @@
             </ul>
             <ul class="menu">
                 <li class="<?php echo $_GET['page'] == 'home' ? 'active' : ''; ?>"><a href="home">HOME</a></li>
-                <li class="<?php echo $_GET['page'] == 'somos' ? 'active' : ''; ?>"><a href="quem-somos">QUEM SOMOS</a></li>
+                <li class="<?php echo $_GET['page'] == 'somos' ? 'active' : ''; ?>"><a href="somos">QUEM SOMOS</a></li>
+                <li class="<?php echo $_GET['page'] == 'solucoes' ? 'active' : ''; ?>"><a href="solucoes">SOLUÇÕES</a></li>
                 <li class="<?php echo $_GET['page'] == 'cases' ? 'active' : ''; ?>"><a href="#">CASES</a></li>
                 <li class="<?php echo $_GET['page'] == 'contato' ? 'active' : ''; ?>"><a href="#">CONTATO</a></li>
             </ul>
         </div>
     </div>
-    <div id="submenu">
-        <div class="container">
-            <ul>
-                <li><a href="#">SEGURANÇA DO TRABALHO</a></li>
-                <li><a href="#">QUADROS ELÉTRICOS</a></li>
-                <li><a href="#">ENERGIA SOLAR</a></li>
-            </ul>
-        </div>
-    </div>
- 

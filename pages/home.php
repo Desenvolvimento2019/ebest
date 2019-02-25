@@ -9,9 +9,15 @@
 </div>
 <div class='texto'>
     <div class='container'>
-        <h2>SOBRE NÓS</h2><br>
-        <p>Com sede na cidade de Caxias do Sul-RS, a eBest foi Fundada com o propósito de atender as necessidades legais das empresas da região, trazendo um novo conceito nas áreas de engenharia e segurança do trabalho. Atuamos na elaboração de projetos, documentos técnicos, adequações conforme normas regulamentadoras, laudos periciais e serviços relacionados à segurança do trabalho, expandindo nosso atendendo para clientes em todo o Brasil.</p><br>
-        <p>Estamos sempre atentos as evoluções das tecnologias e necessidades do mercado, para agregar nos serviços ao nosso portfólio, atendendo cada vez melhor nossos clientes.</p><br>
-        <p>Pensando nessa evolução, oferecemos duas linhas de produtos que agregam valor em quesitos como sustentabilidade e economia de energia elétrica. A primeira trata de geração de energia elétrica por sistemas fotovoltaicos e a segunda linha, consiste em carregadores para veículos elétricos.</p>
+        <h2>SEGURANÇA DO TRABALHO</h2><br>
+        <p>Segurança do Trabalho é definido como um conjunto de normas, ações e medidas preventivas destinadas à melhora dos ambientes de trabalho e a prevenção de doenças ocupacionais e acidentes do trabalho. Essas ações ou medidas preventivas podem ser de caráter técnico, administrativas, educativas, de engenharia, organizacionais, higiene ocupacional, ambientais, etc. A atividade de segurança do trabalho numa organização possuem vários objetivos dentre os quais podemos destacar:</p><br>
+        <ul>
+            <li>- Evitar doenças relacionadas a atividade profissional;</li>
+            <li>- Evitar acidentes do trabalho;</li>
+            <li>- Minimizar as condições inseguras de trabalho;</li>
+            <li>- Preparar o trabalhador para a prevenção dos acidentes ocupacionais;</li>
+            <li>- Estabelecer melhores condições físicas e psíquicas no trabalho;</li>
+            <li>- Melhores condições de eficiência e de produção;</li>
+        </ul>
     </div>
 </div>

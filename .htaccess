@@ -6,8 +6,11 @@ ErrorDocument 404 /index.php?page=404
 
 
 RewriteRule ^home/?$ index.php?page=home
-RewriteRule ^quem-somos/?$ index.php?page=somos
+RewriteRule ^somos/?$ index.php?page=somos
+RewriteRule ^solucoes/?$ index.php?page=solucoes
+RewriteRule ^cases/?$ index.php?page=cases
 RewriteRule ^contato/?$ index.php?page=contato
+
 
 
 RewriteRule ^post/(.+)/([0-9]+)/?$ index.php?page=post&id_post=$2
